@@ -7,6 +7,14 @@ font-family: 'Permanent Marker';
 
 }
 
+
+* {
+
+    text-align: center;
+    
+    }
+
+
 body{
     margin: 0;
 }
@@ -24,15 +32,27 @@ body{
     cursor: pointer;
   }
 
+  /* Färg och hur snabbt den switchar då man för musen över */
+  .hero-btn:hover {
+    border: 1px solid #b4d3ae;
+    background: #8da189;
+    transition: 1s;
+  }
 
-.header{
+  .javabox{
+      position: center;
+    }
+
+
+
+.header{ /* Header för startsida*/
     display: flex; flex-direction: column;
     background-color: rgb(172, 194, 177);
     text-align: center;
     padding: 20px;
  
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 30px;
     margin: 0px;
 }
 
@@ -40,30 +60,30 @@ body{
 
 #header2{ /* Header för sida about me */
     color: rgb(0, 0, 0);
-    font-size: 35px;
+    font-size: 30px;
     text-decoration: none;
-    margin-top: 50px;
-    padding: 50px;
+    margin-top: 0px;
+    padding: 20px;
 }
 
 
 
 .topnav{
-    background-color: rgb(172, 194, 177);
-    padding: 20px;
-    text-align: right;
+    background-color: rgb(154, 167, 157);
+    padding: 10px;
+    text-align: center;
 
 }
 
 .topnav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 30px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .topnav a:hover{
-    background-color: rgb(158, 184, 171);
+    background-color: rgb(155, 175, 165);
     color: rgb(0, 0, 0);
 }
 
@@ -76,7 +96,7 @@ body{
 
 h2{ font-size: 25px;}
 
-.cont-child1{
+.cont-child1{ /* Bilder på startsida */
     flex: 1;
     padding: 40px; 
 }
@@ -84,7 +104,7 @@ h2{ font-size: 25px;}
 
 .cont-child3{
     flex: 1;
-    padding: 10px;
+    padding: 40px;
 }
 
 
@@ -98,7 +118,7 @@ h2{ font-size: 25px;}
 
 
 
-/* Här börjar CSS för ABOUT ME*/
+/*  CSS för ABOUT ME*/
 
 
 .aboutme{
@@ -117,14 +137,14 @@ h2{ font-size: 25px;}
 
 /* Mina media Queries */
 
-@media (max-width:992px) {
+@media (max-width:900px) {
     .header{
         flex: 50%;
     }
     
 }
 
-@media (max-width:725px) {
+@media (max-width:900px) {
     .header{
         flex: 50%;
     }
@@ -139,7 +159,7 @@ h2{ font-size: 25px;}
     }
 
     .topnav a{
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .content{
@@ -153,18 +173,12 @@ h2{ font-size: 25px;}
     
     }
 
-    .footer{
-        flex-direction: column;
-        text-align: center;
-        padding: 10px;
-    }
+   
 
-    .foot-child2{
-        padding: 20px;
-    }
+   
 }
 
-@media (max-width:600px) {
+@media (max-width:900px) {
     .header{
         flex: 50%;
     }
@@ -180,16 +194,6 @@ h2{ font-size: 25px;}
     .content{
         flex-direction: column;
         text-align: center;
-    }
-
-    .footer{
-        flex-direction: column;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .foot-child2{
-        padding: 20px;
     }
 
     img{

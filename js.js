@@ -6,6 +6,6 @@ function revealMessage() {
 
 
 function changeColor(){
-    document.querySelector(".javabox").style.color='pink';
+    document.querySelector(".javabox").style.color='darkblue';
 
 }
