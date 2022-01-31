@@ -27,15 +27,15 @@ body{
     border: 1px solid #000;
     padding: 12px 34px;
     font-size: 13px;
-    background: rgb(167, 201, 180);
+    background: rgb(236, 227, 202);
     position: center;
     cursor: pointer;
   }
 
   /* Färg och hur snabbt den switchar då man för musen över */
   .hero-btn:hover {
-    border: 1px solid #b4d3ae;
-    background: #8da189;
+    border: 1px solid #000000;
+    background: #a0b895;
     transition: 1s;
   }
 
@@ -47,7 +47,7 @@ body{
 
 .header{ /* Header för startsida*/
     display: flex; flex-direction: column;
-    background-color: rgb(172, 194, 177);
+    background-color: rgb(216, 216, 197);
     text-align: center;
     padding: 20px;
  
@@ -69,7 +69,7 @@ body{
 
 
 .topnav{
-    background-color: rgb(154, 167, 157);
+    background-color: rgb(231, 230, 211);
     padding: 10px;
     text-align: center;
 
@@ -83,7 +83,7 @@ body{
 }
 
 .topnav a:hover{
-    background-color: rgb(155, 175, 165);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
@@ -137,12 +137,7 @@ h2{ font-size: 25px;}
 
 /* Mina media Queries */
 
-@media (max-width:900px) {
-    .header{
-        flex: 50%;
-    }
-    
-}
+
 
 @media (max-width:900px) {
     .header{
