@@ -135,6 +135,8 @@ h2{ font-size: 25px;}
 }
 
 
+
+
 /* Mina media Queries */
 
 
@@ -154,7 +156,7 @@ h2{ font-size: 25px;}
     }
 
     .topnav a{
-        font-size: 35px;
+        font-size: 45px;
     }
 
     .content{
@@ -162,14 +164,10 @@ h2{ font-size: 25px;}
         text-align: center;
     }
 
-    .aboutme-parent{
-        display: flex;  
-       flex-direction: column;
-    
+    img{
+        width: 100%;
+        height: auto;
     }
-
-   
-
    
 }
 
