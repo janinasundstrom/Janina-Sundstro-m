@@ -6,7 +6,7 @@ function revealMessage() {
 }
 
 
-//*Min dom manipulering*//
+//*Min DOM manipulering*//
 function changeColor(){
     document.querySelector(".javabox").style.color='darkblue';
 
@@ -22,4 +22,5 @@ function mouseDown() {
 function mouseUp() {
   document.getElementById("myP").style.color = "green";
 }
+
 
